@@ -1,0 +1,19 @@
+#light {
+    --primary-bg: #ffffff;
+    --primary-text: #1b1b1b;
+    --secondary-text: #3e3e3e;
+    --secondary-bg: #f2f2f2;
+    --button-bg: #8a9ce6af;
+    --button-text: #313131;
+    --hover-bg:#e1e1e1;
+}
+
+#dark {
+    --primary-bg: #101116;
+    --primary-text: #d1d0d0;
+    --secondary-text: #b9b9b9;
+    --secondary-bg: #1a1c23;
+    --button-bg: #8a9ce6af;
+    --button-text: #FFFFFF;
+    --hover-bg: #202128;
+}

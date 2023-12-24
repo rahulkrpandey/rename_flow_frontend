@@ -1,0 +1,152 @@
+.dashboard__content {
+  /* width: 100%; */
+  /* background-color: black; */
+}
+
+.content__table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.content__head {
+}
+
+.content__head_row {
+}
+
+.content__body {
+}
+
+.content__body_row {
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  font-size: 0.7rem;
+}
+
+.content__item_select_btn {
+  height: 0.7rem;
+  width: 0.7rem;
+  /* margin: auto; */
+  border-radius: 100%;
+  border: 0;
+  cursor: pointer;
+  transform: translateY(1px);
+}
+
+.content__item_select_btn_bg_default {
+  background-color: #cbd5e1;
+}
+
+.content__item_select_btn_bg_selected {
+  background-color: #10b981;
+}
+
+.content_modal,
+.content_modal_overlay {
+  height: 100vh;
+  width: 100wv;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.content_modal_overlay {
+  background: rgba(49, 49, 49, 0.2);
+}
+
+.content_modal_content {
+  background-color: #fff;
+  margin: auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+.content_modal_content_heading {
+  font-size: 0.9rem;
+  color: var(--primary-text);
+  margin-bottom: 1.2rem;
+}
+
+.content_modal_content_sub_heading {
+  font-size: 0.7rem;
+  color: var(--primary-text);
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+
+.content_modal_content_input {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 4px 8px;
+  margin-bottom: 2.4rem;
+  width: 90%;
+}
+
+.content_modal_content_btn_gp {
+  display: flex;
+  /* padding: 0 2rem; */
+  gap: 1rem;
+}
+
+.content_modal_content_btn_save,
+.content_modal_content_btn_cancel {
+  padding: 3px 0;
+  flex-grow: 1;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid #6b7280;
+  border-radius: 50px;
+  color: #6b7280;
+  background-color: var(--primary-bg);
+}
+
+.content_modal_content_btn_save {
+  background-color: #fda4af;
+  color: #881337;
+}
+
+.content_modal_content_btn_save:active {
+  background-color: #f43f5e;
+}
+
+.content_modal_content_btn_cancel:active {
+  background-color: #d1d5db;
+}
+
+.content__add_btn {
+  border-radius: 2rem;
+  padding: 0.1rem 0.5rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #4f46e5;
+}
+
+.content__add_btn:hover {
+  cursor: pointer;
+}
+
+.content__info_btn {
+  border: none;
+  background: none;
+}
+
+.content__info_btn:hover {
+  cursor: pointer;
+}
