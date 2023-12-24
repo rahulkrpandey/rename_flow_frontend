@@ -109,6 +109,15 @@ const Content = () => {
 
     // renaming file or folder that is selected, inside a promise
     new Promise((resolve, reject) => {
+      if (item.name === renameText) {
+        return reject({
+          response: {
+            data: {
+              message: "Choose different name",
+            },
+          },
+        });
+      }
       axios
         .post(`${BASE_URL}/get-table-name`, {
           record_id: item.id,
